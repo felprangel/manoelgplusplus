@@ -32,10 +32,10 @@ t=n.decode()
 arquivo.close()
 
 #cria um arquivo python e cola o texto nele
-g=open("programme_made_by_compiler_do_not_touch.py","w")
+g=open("programa_feito_pelo_compilador","w")
 g.write(t)
 g.close()
 
 #executa o programa
-exec(open("programme_made_by_compiler_do_not_touch.py").read())
-open("programme_made_by_compiler_do_not_touch.py").close()
+exec(open("programa_feito_pelo_compilador").read())
+open("programa_feito_pelo_compilador").close()
